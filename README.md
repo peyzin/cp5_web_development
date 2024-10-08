@@ -1,6 +1,6 @@
-# SPRINT 3 PYTHON - FÓRMULA E (MAHINDRA)
+# CP5-WEB DEVELOPMENT (APLICATIVO DE COMIDA - GOURMETON)
 
-Nosso projeto é uma aplicação "Web", "Desktop" e "Mobile" desenvolvida para fornecer uma plataforma abrangente com a finalidade de acompanhar e analisar a emocionante competição de carros elétricos da Fórmula E. O objetivo deste projeto é oferecer aos fãs e entusiastas da Fórmula E uma experiência envolvente e informativa, permitindo que eles se mantenham atualizados sobre corridas, resultados e estatísticas de desempenho de pilotos e equipes.
+Bem vindo ao app GourmetOn! Um aplicativo que conecta usuários a restaurantes locais, oferecendo opções de entrega ou retirada. O objetivo é proporcionar uma experiência de pedido de comida rápida e simplificada, com foco na usabilidade e na variedade de opções gastronômicas.
 
 ## Índice
 - [Funcionalidades](#funcionalidades)
@@ -9,19 +9,17 @@ Nosso projeto é uma aplicação "Web", "Desktop" e "Mobile" desenvolvida para f
 - [Contribuição](#contribuição)
 
 ## Funcionalidades
-- **Resultados em Tempo Real**: Acompanhe as corridas da Fórmula E em tempo real, com atualizações instantâneas sobre posições e tempos de volta.
-- **Análises Estatísticas**: Visualize dados detalhados sobre desempenhos de pilotos e equipes ao longo da temporada.
-- **Notificações Personalizadas**: Receba alertas sobre corridas, resultados e eventos especiais diretamente no seu dispositivo.
-- **Histórico de Corridas**: Acesse um banco de dados abrangente com informações sobre corridas passadas, incluindo resultados e estatísticas.
-- **Integração com Redes Sociais**: Compartilhe suas análises e resultados favoritos nas redes sociais com facilidade.
+- **Busca de Restaurantes:** Pesquise por restaurantes com base em localização e tipo de cozinha.
+- **Pedidos Online:** Faça pedidos diretamente pelo aplicativo e escolha entre entrega ou retirada.
+- **Recomendações Personalizadas:** Sugestões de pratos com base nas preferências do usuário.
+- **Avaliações e Comentários:** Veja avaliações de outros usuários e deixe seus comentários sobre pratos e restaurantes.
+- **Carrinho de Compras:** Gerencie seus pedidos facilmente com um carrinho de compras intuitivo.
+- **Notificações em Tempo Real:** Receba atualizações sobre o status do seu pedido.
   
 ## Tecnologias Usadas
-
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
-
-- Linguagem de Programação: Python
-- Bibliotecas utilizadas: Pandas, Matplotlib, Random
-- Outras ferramentas: Jupyter Notebook
+- **Frontend:** React Native
+- **API:** Spoonacular API
+- **Bibliotecas:** Font Awesome, Material Icons
 
 ## Instalação
 
@@ -29,20 +27,24 @@ Siga as etapas abaixo para instalar e executar o projeto localmente:
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/kaio14827/sprint3_python.git
+   git clone https://github.com/kaio14827/cp5_web_development.git
    
 2. **Navegue até a pasta do projeto:**
    ```bash
-   cd SPRINT3_PYTHON
+   cd NOME DO PROJETO
    
-3. **Instale as dependências:**
+3. **Instale as dependências do servidor e do cliente:**
    ```bash
-   pip install pandas tabulate -r requirements.txt
+   npm install
+   cd client
+   npm install
 
-4. **Execute o projeto:**
+4. **Configure as variáveis de ambiente (crie um arquivo .env na raiz do projeto e adicione as credenciais necessárias para o banco de dados, autenticação, etc).**
+
+5. **Inicie o servidor e o cliente:**
    ```bash
-   pip install -r requirements.txt
-   
+   npm run dev
+
 ## Contribuição
 
 Contribuições são sempre bem-vindas! Se você deseja ajudar a melhorar este projeto, siga estas diretrizes:
