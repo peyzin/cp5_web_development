@@ -2,6 +2,12 @@
 
 Bem vindo ao app GourmetOn! Um aplicativo que conecta usuários a restaurantes locais, oferecendo opções de entrega ou retirada. O objetivo é proporcionar uma experiência de pedido de comida rápida e simplificada, com foco na usabilidade e na variedade de opções gastronômicas.
 
+-**Integrantes:***
+- Kaio Drago Lima Souza - RM556095 
+- Nickolas Moreno Cardoso - RM557132 
+- André Giovane - RM556384
+- Lucas Roggerio Imparato - RM554896
+
 ## Índice
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Usadas](#tecnologias-usadas)
